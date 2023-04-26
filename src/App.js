@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route}
 import Home from './Pages';
 import Recettes from './Pages/Recettes';
 import Contact from './Pages/Contact';
+import About from './Pages/About';
   
 function App() {
 return (
@@ -13,6 +14,7 @@ return (
     <Navbar />
     <Routes>
         <Route exact path='/'  element={<Home />} />
+        <Route exact path='/About' element={<About/>} />
         <Route path='/Contact' element={<Contact/>} />
         <Route path='/Recettes' element={<Recettes/>} />  
     </Routes>
