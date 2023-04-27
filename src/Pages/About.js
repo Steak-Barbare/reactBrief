@@ -4,8 +4,19 @@ const About = () => {
   return (
     <div>
       <h1>
-       Page d'accueil de notre site
+        BIENVENUE AUX FINS GOURMETS
       </h1>
+      <div className="box-container">
+        <div className="box">
+          <p className="box-text">SUCRÉ</p>
+        </div>
+        <div className="box">
+          <p className="box-text">SALÉ</p>
+        </div>
+        <div className="box">
+          <p className="box-text">SURPRISE</p>
+        </div>
+      </div>
     </div>
   );
 };

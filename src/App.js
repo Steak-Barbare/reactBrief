@@ -7,7 +7,8 @@ import Home from './Pages';
 import Recettes from './Pages/Recettes';
 import Contact from './Pages/Contact';
 import About from './Pages/About';
-  
+import Footer from './Components/Footer';
+
 function App() {
 return (
     <Router>
@@ -18,7 +19,9 @@ return (
         <Route path='/Contact' element={<Contact/>} />
         <Route path='/Recettes' element={<Recettes/>} />  
     </Routes>
+    <Footer />
     </Router>
+    
 );
 }
   
