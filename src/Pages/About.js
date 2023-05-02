@@ -1,11 +1,10 @@
 import React from "react";
-  
+import Titre from "../Components/Titre";  
+
 const About = () => {
   return (
     <div>
-      <h1>
-        BIENVENUE AUX FINS GOURMETS
-      </h1>
+      <Titre titre="Bienvenue aux fins gourmets"/>
       <div className="box-container">
         <div className="box">
           <p className="box-text">SUCRÉ</p>

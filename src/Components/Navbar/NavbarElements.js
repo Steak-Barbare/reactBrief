@@ -6,8 +6,8 @@ export const Nav = styled.nav`
   background: #EDECEC;
   height: 85px;
   display: flex;
-  justify-content: flex-end;;
-  padding: 0.2rem calc((100vw - 1000px) / 2);
+  justify-content : center;
+  padding: 0;
   z-index: 12;
   filter : drop-shadow(rgba(0, 0, 0, 0.39) 0px 0px 0.75rem);
 `;
